@@ -7,5 +7,23 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="Fiap">
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Fiap.Button">
+        <item name="android:background">@drawable/custom_buttom</item>
+        <item name="android:textSize">@dimen/botao_tamanho_texto</item>
+    </style>
+
+    <style name="Fiap.Header">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:padding">@dimen/padding_padrao</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginBottom">@dimen/padding_padrao</item>
+        <item name="android:layout_marginTop">@dimen/padding_padrao</item>
+    </style>
 
 </resources>
